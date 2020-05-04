@@ -23,7 +23,10 @@
                                 "from": {
                                     "key_code": "left_arrow",
                                     "modifiers": {
-                                        "mandatory": [ "control" ]
+                                        "mandatory": [ "control" ],
+                                        "optional": [
+                                            "shift"
+                                        ]
                                     }
                                 },
                                 "to": [
@@ -42,6 +45,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "control"
+                                        ],
+                                        "optional": [
+                                            "shift"
                                         ]
                                     }
                                 },
